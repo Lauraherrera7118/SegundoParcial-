@@ -16,7 +16,7 @@ public class IndiceMetodos {
         Scanner scan = new Scanner(System.in);
         int menu = 1;
 
-        System.out.println(" -------- Bienvenido");
+        System.out.println("Bienvenido");
 
         while (menu == 1) {
             System.out.println("¿De que tamaño desea el arreglo?");
@@ -32,8 +32,8 @@ public class IndiceMetodos {
                     int buscado = scan.nextInt();
 
                     System.out.println("¿Que método desea utilizar?");
-                    System.out.println("1 -- Búsqueda binaria");
-                    System.out.println("2 -- Búsqueda secuencial");
+                    System.out.println("1. Búsqueda binaria");
+                    System.out.println("2. Búsqueda secuencial");
                     int eleccion = scan.nextInt();
 
                     switch (eleccion) {
@@ -59,11 +59,11 @@ public class IndiceMetodos {
                     break;
                 case 2:
                     System.out.println("¿Qué método desea usar?");
-                    System.out.println("1 -- Burbuja");
-                    System.out.println("2 -- Selección");
-                    System.out.println("3 -- Inserción");
-                    System.out.println("4 -- Shell");
-                    System.out.println("5 -- Quicksort");
+                    System.out.println("1. Burbuja");
+                    System.out.println("2. Selección");
+                    System.out.println("3. Inserción");
+                    System.out.println("4. Shell");
+                    System.out.println("5. Quicksort");
                     int met = scan.nextInt();
 
                     switch (met) {
